@@ -2,7 +2,7 @@
 
 * *encrypt* & *Store* files in a *database*
 
-> ### What i have learnd
+> ### What i have learned
 
 > - dealing with databases **sqllite**
 
