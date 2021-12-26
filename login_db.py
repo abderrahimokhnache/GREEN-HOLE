@@ -30,14 +30,14 @@ class LOG :
 
 		except TypeError :
 
-				print("\n\xb0 [-] INVALID INPUT ! \n")
+				print("\n\xb0 [-] SAVE INVALID INPUT ! \n")
 
 
 	def Check(self, UN , getpw):
 		
 		try :
 		
-			Password = sha256(getpw).hexdigest()
+			Password = sha256(bytes(getpw , encoding ="UTF-8")).hexdigest()
 		
 
 			data = self.db.Listrequest(TN ='USERS')
@@ -60,9 +60,9 @@ class LOG :
 
 					return False
 
-		except TypeError :
-
-			print("\n\xb0 [-] INVALID INPUT ! \n")
+		except TypeError as e :
+			raise e 
+			print(f"\n\xb0 [-] Password INVALID INPUT ! \n {e} ")
 			
 	
 	def reset_key(self,UN , Old , New ):
