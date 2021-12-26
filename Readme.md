@@ -2,9 +2,7 @@
 
 * *encrypt* & *Store* files in a *database*
 
-> ### What i have learned
-
-> - dealing with databases **sqllite**
+> - databases **sqllite**
 
 > - cryptography **cryptography.fernet**
 
