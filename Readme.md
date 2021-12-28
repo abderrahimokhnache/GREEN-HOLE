@@ -1,6 +1,6 @@
 # File locker
 
-## FILE ENCRYPTION SYSTEM *CLI
+## FILE ENCRYPTION SYSTEM *CLI* + PASSWORD MANAGER
 
 ### usage :
 
