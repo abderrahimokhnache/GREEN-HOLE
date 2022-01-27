@@ -35,5 +35,5 @@ python3 Storage_handler.py [-Reset]
 
 <img src="https://github.com/astroxiii/file-locker/blob/master/static/Screenshot from 2021-12-26 19-13-27.png" width="500"/>
 
-### the SQL.py file is a package now , you can use it for your own projects 
+### the SQL.py file is a package now  
 Check here : https://github.com/astroxiii/ONRush
